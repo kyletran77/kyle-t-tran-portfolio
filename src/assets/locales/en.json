@@ -74,8 +74,8 @@
     "pages": {
         "home": {
             "hero": {
-                "title": "Elias is a <span>web designer</span> and <span>front-end</span> developer",
-                "description": "He crafts responsive websites where technologies meet creativity",
+                "title": "Kyle Tran is a cool <span>cat</span> and <span>sales</span> guy",
+                "description": "Slime",
                 "button": "Contact ME",
                 "status": "Open for new opportunities"
             },
