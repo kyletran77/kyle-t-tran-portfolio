@@ -53,7 +53,16 @@ module.exports = {
         rules: [
             {
                 test: /\.(sass)$/,
-                use: [plugins.css.loader, "css-loader", "sass-loader"],
+                use: [
+                    plugins.css.loader,
+                    "css-loader",
+                    {
+                        loader: "sass-loader",
+                        options: {
+                            implementation: require('sass')
+                        }
+                    }
+                ],
                 include: [
                     join(__dirname, "src/assets/styles")
                 ]
