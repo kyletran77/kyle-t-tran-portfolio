@@ -22,8 +22,8 @@ export default (t) => {
 
                 <div class="header__inner">
                     <a class="logo" href="/">
-                        <img class="logo__img" src="/images/logo.svg" alt="Elias logo">
-                        <span class="logo__name">Elias</span>
+                        <img class="logo__img" src="/images/logo.svg" alt="Kyle's logo">
+                        <span class="logo__name">Kyle</span>
                     </a>
                     <div class="header__links">
                         ${paths

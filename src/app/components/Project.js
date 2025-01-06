@@ -21,10 +21,15 @@ function mapLinks(links) {
     return Object.keys(links).map(map).join("");
 }
 
-export default ({ id }, t) => {
+export default ({ id }, t = {}) => {
     const { hasImage, techs: projectTech, links } = projects.find(
         (project) => project.id === id
-    );
+    ) || {};
+
+    if (!t || !t[id]) {
+        console.warn(`Missing translation for project: ${id}`);
+        return '';
+    }
 
     return /*html*/ `
         <div class="project">

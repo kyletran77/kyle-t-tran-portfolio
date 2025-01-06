@@ -18,6 +18,14 @@
         "framework": "Frameworks"
     },
     "projects": {
+        "trandev": {
+            "name": "TranDev",
+            "description": "B2B Sales and Project Management"
+        },
+        "eventsbykylo": {
+            "name": "Events by Kylo",
+            "description": "B2C Sales and Event Management"
+        },
         "chertnodes": {
             "name": "ChertNodes",
             "description": "Minecraft servers hosting"
