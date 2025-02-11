@@ -11,10 +11,9 @@
         "media": "Media"
     },
     "skills": {
-        "language": "Languages",
-        "database": "Databases",
+        "main": "Core Skills",
         "other": "Other",
-        "tool": "Tools",
+        "tools": "Tools",
         "framework": "Frameworks"
     },
     "projects": {
@@ -124,9 +123,10 @@
             "description": "Who am i",
             "about": {
                 "description": [
-                    "I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. ",
-                    "Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. ",
-                    "I always strive to learn about the newest technologies and frameworks. "
+                    "Got my start in software sales at a medium sized company. I learned how to build from the ground up with little to no resources.",
+                    "I have used my skills to help grow SMBs and Mid-cap companies from good companies, into great companies. Keeping up with AI has helped me become more organized, resulting in quality work for my clients.",
+                    "Continuing this journey to help companies grow alongside me and flourish in excellence."
+                
                 ]
             },
             "skills": {

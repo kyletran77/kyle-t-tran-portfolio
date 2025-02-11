@@ -7,5 +7,9 @@ export default {
     hubspot: "HubSpot",
     zoomInfo: "ZoomInfo",
     apollo: "Apollo.io",
-    linkedin: "LinkedIn Sales Navigator"
+    linkedin: "LinkedIn Sales Navigator",
+    sales: "Sales Strategy",
+    management: "Team Management",
+    leadership: "Leadership"
+
 }
