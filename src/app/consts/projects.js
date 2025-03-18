@@ -5,7 +5,7 @@ const projects = [
     {
         id: "trandev",
         links: {
-            live: "trandev.net"
+            Preview: "trandev.net"
         },
         techs: ["b2bSales", "projectManagement"],
         hasImage: true
@@ -13,7 +13,7 @@ const projects = [
     {
         id: "eventsbykylo",
         links: {
-            live: "eventsbykylo.com"
+            Preview: "eventsbykylo.com"
         },
         techs: ["b2cSales", "hubspot"],
         hasImage: true

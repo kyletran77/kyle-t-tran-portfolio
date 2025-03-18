@@ -1,11 +1,16 @@
-@import ../default/variables
+@use '../default/variables.scss' as vars
 
-@import ../blocks/home/about
-@import ../blocks/home/contacts
-@import ../blocks/home/hero
-@import ../blocks/home/projects
-@import ../blocks/home/quote
-@import ../blocks/home/skills
+// Define screen variables for use in imported files
+$desktopScreen: 1024px
+$tabletScreen: 768px
+$mobileScreen: 500px
 
-@import ../components/project
-@import ../components/skillBlock
+// Using @import for the block imports to simplify dependencies
+@import '../blocks/home/about'
+@import '../blocks/home/contacts'
+@import '../blocks/home/hero'
+@import '../blocks/home/projects'
+@import '../blocks/home/skills'
+
+@import '../components/project'
+@import '../components/skillBlock'

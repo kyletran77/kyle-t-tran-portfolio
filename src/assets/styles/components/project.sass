@@ -1,3 +1,5 @@
+@use '../default/variables.scss' as vars
+
 .project
     border: 1px solid var(--gray)
 
@@ -33,12 +35,10 @@
 .project-list
     width: 100%
     display: grid
-
-    grid-template-columns: repeat(3, 1fr)
-
-    @media (max-width: $desktopScreen)
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
-
     gap: 16px
     align-items: start
     margin-top: 48px
+    grid-template-columns: repeat(3, 1fr)
+
+    @media (max-width: vars.$desktopScreen)
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
