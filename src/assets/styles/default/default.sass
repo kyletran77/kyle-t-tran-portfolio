@@ -1,4 +1,3 @@
-
 body, html
     background-color: var(--background)
     color: var(--white)
@@ -6,6 +5,21 @@ body, html
     display: flex
     gap: 112px
     flex-direction: column
+
+// Add rounded corners to all images on the website
+img
+    border-radius: 8px
+    // Keep existing properties like max-width and display from reset.sass
+
+// Exceptions - images that should not have rounded corners
+.media__icon,
+.dots img,
+svg
+    border-radius: 0  // Override to ensure no rounded corners for icons
+
+// Special case for logo image since it's already rounded
+.logo__img
+    // Already has border-radius: 8px
 
 .dots
     width: 10vmin
