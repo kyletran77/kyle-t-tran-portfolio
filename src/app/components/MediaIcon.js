@@ -1,4 +1,4 @@
-import media from "@/consts/media";
+import { media } from "@/consts";
 
 export default ({ name }) => {
     return /*html*/ `

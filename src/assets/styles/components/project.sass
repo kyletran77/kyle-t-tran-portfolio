@@ -2,18 +2,27 @@
 
 .project
     border: 1px solid var(--gray)
+    display: flex
+    flex-direction: column
+    height: 100%
 
     &__links
         display: flex
         flex-wrap: wrap
         gap: 8px
+        margin-top: auto
 
     &__image
         border-bottom: 1px solid var(--gray)
         aspect-ratio: 16/9
+        width: 100%
+        object-fit: cover
 
     &__content
         padding: 16px
+        display: flex
+        flex-direction: column
+        flex-grow: 1
 
     &__name
         font:
@@ -23,6 +32,7 @@
     &__description
         color: var(--gray)
         margin: 16px 0
+        flex-grow: 1
     
     &__techs
         display: flex
@@ -36,7 +46,7 @@
     width: 100%
     display: grid
     gap: 16px
-    align-items: start
+    align-items: stretch
     margin-top: 48px
     grid-template-columns: repeat(3, 1fr)
 

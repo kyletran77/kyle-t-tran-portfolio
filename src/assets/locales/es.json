@@ -1,0 +1,148 @@
+{
+    "header": {
+        "home": "inicio",
+        "projects": "proyectos",
+        "about": "antecedentes",
+        "contacts": "qué-sigue"
+    },
+    "footer": {
+        "description": "Empresa de desarrollo de IA/Software - Tran Development",
+        "copyright": "Copyright 2024. Hecho para Kyle T Tran",
+        "media": "Medios"
+    },
+    "skills": {
+        "main": "Habilidades principales",
+        "other": "Otros",
+        "tools": "Herramientas",
+        "framework": "Frameworks"
+    },
+    "projects": {
+        "trandev": {
+            "name": "TranDev",
+            "description": "Ventas B2B y Gestión de Proyectos"
+        },
+        "eventsbykylo": {
+            "name": "Events by Kylo",
+            "description": "Ventas B2C y Gestión de Eventos"
+        },
+        "chertnodes": {
+            "name": "ChertNodes",
+            "description": "Alojamiento de servidores Minecraft"
+        },
+        "protectx": {
+            "name": "ProtectX web",
+            "description": "Bot anti-caída de Discord"
+        },
+        "khanswers": {
+            "name": "Kahoot Answers",
+            "description": "Obtén respuestas de cuestionarios Kahoot"
+        },
+        "kotikbot": {
+            "name": "KotikBot",
+            "description": "Landing para bot de Discord multifuncional"
+        },
+        "portfolio": {
+            "name": "Este Portfolio",
+            "description": "Mi portafolio personal"
+        },
+        "blog": {
+            "name": "Mi blog",
+            "description": "Front-end de mi futuro sitio web de blog"
+        },
+        "discordbot": {
+            "name": "Discord Bot Boilerplate",
+            "description": "Empieza a crear bots de discord.js escalables con typescript en segundos"
+        },
+        "chesspro": {
+            "name": "Chess PRO",
+            "description": "Página de destino sobre servicio para ver torneos de ajedrez"
+        },
+        "ooku": {
+            "name": "Ooku",
+            "description": "Acortador de enlaces con autenticación de Discord"
+        },
+        "madhost": {
+            "name": "MadHost",
+            "description": "Alojamiento de Minecraft y sitios web con precios bajos"
+        },
+        "feedrum": {
+            "name": "Feedrum",
+            "description": "Red social ucraniana diseñada para programadores"
+        },
+        "deplos": {
+            "name": "Deplos",
+            "description": "Alojamiento de servidores de juegos"
+        },
+        "pixel-battle": {
+            "name": "Pixel Battle",
+            "description": "Juego de batalla de arte de píxeles"
+        }
+    },
+    "pages": {
+        "home": {
+            "hero": {
+                "title": "Kyle T. - <span>CRMxAI</span>",
+                "description": "Hablemos de cómo no estás usando IA",
+                "button": "Hablemos",
+                "status": "Empresa de desarrollo de IA/Software - Tran Development"
+            },
+            "quote": {
+                "text": "Con gran poder viene una gran factura de electricidad",
+                "author": "Dr. Who"
+            },
+            "projects": {
+                "title": "proyectos",
+                "button": "Ver todos"
+            },
+            "skills": {
+                "title": "habilidades"
+            },
+            "about": {
+                "title": "antecedentes",
+                "description": [
+                    "Comencé en ventas de SaaS en una PYME. Aprendí a vender.",
+                    "Luego, me trasladé a una empresa de marketing en otra PYME. Aprendí a hacer marketing.",
+                    "Ahora, estoy usando el lenguaje de ventas y marketing para ayudar a construir comunidades y crecer con startups."
+                ],
+                "button": "Ver todo"
+            },
+            "contacts": {
+                "title": "qué-sigue",
+                "text": "Parece que has podido tolerar mi página hasta ahora. Si quieres hablar, ya sabes cómo contactarme. Si no, gracias por tu atención.",
+                "media": "Contáctame aquí",
+                "donate": "Hazme una donación aquí"
+            }
+        },
+        "projects": {
+            "description": "Todos mis proyectos",
+            "decent": "decentes",
+            "small": "pequeños",
+            "inProgress": "sin terminar"
+        },
+        "about": {
+            "description": "Quién soy",
+            "about": {
+                "description": [
+                    "Comencé en ventas de SaaS en una PYME. Aprendí a vender.",
+                    "Luego, me trasladé a una empresa de marketing en otra PYME. Aprendí a hacer marketing.",
+                    "Ahora, estoy usando el lenguaje de ventas y marketing para ayudar a construir comunidades y crecer con startups."
+                ]
+            },
+            "skills": {
+                "title": "habilidades"
+            },
+            "facts": {
+                "title": "curiosidades",
+                "list": [
+                    "Me gusta más el invierno que el verano", 
+                    "A menudo ando en bicicleta con mis amigos",
+                    "Me gustan la pizza y la pasta", 
+                    "Mi película favorita es Milagros Inesperados"
+                ]
+            }
+        },
+        "contacts": {
+            "description": "Cómo contactarme"
+        }
+    }
+} 

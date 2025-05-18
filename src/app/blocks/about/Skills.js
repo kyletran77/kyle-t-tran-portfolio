@@ -1,5 +1,5 @@
 import SkillBlock from "@/components/SkillBlock"
-import skills from "@/consts/skills"
+import { skills } from "@/consts"
 
 export default (t, t2) => {
     return /*html*/`

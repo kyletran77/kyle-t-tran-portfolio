@@ -2,89 +2,37 @@
     "header": {
         "home": "home",
         "projects": "projects",
-        "about": "about-me",
-        "contacts": "contacts"
+        "about": "background",
+        "contacts": "whats-next"
     },
     "footer": {
-        "description": "Sales and Project Management Professional based in USA",
+        "description": "Based in USA",
         "copyright": "Copyright 2024. Made for Kyle T Tran",
         "media": "Media"
     },
     "skills": {
-        "main": "Core Skills",
+        "main": "Skills",
         "other": "Other",
-        "tools": "Tools",
-        "framework": "Frameworks"
+        "tools": "Tools"
     },
     "projects": {
         "trandev": {
-            "name": "TranDev",
-            "description": "B2B Sales and Project Management"
+            "name": "Tran Development",
+            "description": "AI/Software Development Firm"
         },
         "eventsbykylo": {
-            "name": "Events by Kylo",
-            "description": "B2C Sales and Event Management"
-        },
-        "chertnodes": {
-            "name": "ChertNodes",
-            "description": "Minecraft servers hosting"
-        },
-        "protectx": {
-            "name": "ProtectX web",
-            "description": "Discord anti-crash bot"
-        },
-        "khanswers": {
-            "name": "Kahoot Answers",
-            "description": "Get answers from kahoot quiz"
-        },
-        "kotikbot": {
-            "name": "KotikBot",
-            "description": "Landing for multi-functional cute discord bot"
-        },
-        "portfolio": {
-            "name": "This Portfolio",
-            "description": "My personal portfolio"
-        },
-        "blog": {
-            "name": "My blog",
-            "description": "Front-end of my future blog website"
-        },
-        "discordbot": {
-            "name": "Discord Bot Boilerplate",
-            "description": "Start creating scalable discord.js bot with typescript in seconds"
-        },
-        "chesspro": {
-            "name": "Chess PRO",
-            "description": "Landing page about service for viewing chess tournaments"
-        },
-        "ooku": {
-            "name": "Ooku",
-            "description": "Link shortener with discord auth"
-        },
-        "madhost": {
-            "name": "MadHost",
-            "description": "Minecraft and websites hosting with low prices"
-        },
-        "feedrum": {
-            "name": "Feedrum",
-            "description": "Ukrainian social network designed for programmers"
-        },
-        "deplos": {
-            "name": "Deplos",
-            "description": "Game servers hosting"
-        },
-        "pixel-battle": {
-            "name": "Pixel Battle",
-            "description": "Pixel art battle game"
+            "name": "Events by KYLO",
+            "description": "DJ Equipment Rental Services"
         }
+       
     },
     "pages": {
         "home": {
             "hero": {
-                "title": "Kyle T Tran - <span>PM</span>/<span>Business Development</span>",
-                "description": "I drive and retain revenue for businesses",
-                "button": "Contact ME",
-                "status": "Employed and Self-Employed"
+                "title": "Kyle T. - <span>CRMxAI</span>",
+                "description": "Let's talk about how you aren't using AI",
+                "button": "Let's chat",
+                "status": "AI/Software Development Firm - Tran Development"
             },
             "quote": {
                 "text": "With great power comes great electricity bill",
@@ -98,17 +46,17 @@
                 "title": "skills"
             },
             "about": {
-                "title": "about",
+                "title": "background",
                 "description": [
-                    "Got my start in software sales at a medium sized company. I learned how to build from the ground up with little to no resources.",
-                    "I have used my skills to help grow SMBs and Mid-cap companies from good companies, into great companies. Keeping up with AI has helped me become more organized, resulting in quality work for my clients.",
-                    "Continuing this journey to help companies grow alongside me and flourish in excellence."
+                    "Got my start in SaaS sales at an SMB. I learned how to sell.",
+                    "Then, I moved to a marketing company at another SMB. I learned how to market.",
+                    "Now, I am using the language of sales and marketing to help build communities and grow with startups."
                 ],
                 "button": "View all"
             },
             "contacts": {
-                "title": "contacts",
-                "text": "I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me",
+                "title": "whats-next",
+                "text": "It looks like you were able to tolerate my page so far. If you want to chat, you know how to reach me. If not, thanks for your attention.",
                 "media": "Message me here",
                 "donate": "Donate me here"
             }
@@ -123,10 +71,9 @@
             "description": "Who am i",
             "about": {
                 "description": [
-                    "Got my start in software sales at a medium sized company. I learned how to build from the ground up with little to no resources.",
-                    "I have used my skills to help grow SMBs and Mid-cap companies from good companies, into great companies. Keeping up with AI has helped me become more organized, resulting in quality work for my clients.",
-                    "Continuing this journey to help companies grow alongside me and flourish in excellence."
-                
+                    "Got my start in SaaS sales at an SMB. I learned how to sell.",
+                    "Then, I moved to a marketing company at another SMB. I learned how to market.",
+                    "Now, I am using the language of sales and marketing to help build communities and grow with startups."
                 ]
             },
             "skills": {

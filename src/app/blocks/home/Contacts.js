@@ -1,9 +1,9 @@
-import media from "@/consts/media";
+import { media } from "@/consts";
 
 const contacts = [
     {
-        name: "discord",
-        text: media.discordTag,
+        name: "linkedin",
+        text: "LinkedIn",
     },
     {
         name: "email",
@@ -13,7 +13,7 @@ const contacts = [
 
 export default (t) => {
     return /*html*/ `
-        <sections class="contacts" id="contacts">
+        <sections class="contacts" id="whats-next">
             <h2 class="h2">${t.title}</h2>
             <div class="contacts__content">
                 <p class="contacts__description">${t.text}</p>

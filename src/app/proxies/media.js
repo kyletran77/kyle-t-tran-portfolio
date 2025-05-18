@@ -1,4 +1,4 @@
-import websites from "../consts/websites"
+import { websites } from "../consts"
 
 
 export default {

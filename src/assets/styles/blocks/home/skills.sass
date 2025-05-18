@@ -8,12 +8,14 @@
         flex-wrap: wrap
         gap: 32px
         margin-top: 48px
-
         margin-bottom: 16px
+        position: relative
 
     &__list
         column-gap: 16px
         columns: 3
+        position: relative
+        z-index: 2
 
         @media (max-width: $tabletScreen) 
             columns: 2
@@ -29,12 +31,15 @@
     position: relative
     min-width: 300px
     min-height: 300px
+    z-index: 1
 
     &__logo
         width: 14vmin
         top: 30%
         position: absolute
         left: 70%
+        opacity: 0.3
+        z-index: -1
 
     .dots:nth-of-type(2)
         width: 16vmin

@@ -1,12 +1,9 @@
-import projects from "@/consts/projects";
-import websites from "@/consts/websites";
-import techs from "@/consts/techs";
-import media from "@/consts/media";
+import { projects, websites, media } from "@/consts";
 
 function mapLinks(links) {
     function map(link) {
         let href =
-        "https://" + (link === "Preview" ? "" : websites[link]) + links[link];
+        "https://" + (link === "Stalk" ? "" : websites[link]) + links[link];
 
         if (link === "figma") href = `https://figma.com/community/file/${links[link]}`
         if (link === "github" && links[link].startsWith("/")) href = media.github + links[link]
@@ -43,7 +40,7 @@ export default ({ id }, t = {}) => {
                 ${projectTech
                     .map(
                         (tech) =>
-                            /*html*/ `<li class="project__tech">${techs[tech]}</li>`
+                            /*html*/ `<li class="project__tech">${tech}</li>`
                     )
                     .join("")}
             </ul> 

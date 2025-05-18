@@ -1,5 +1,5 @@
-import Project from "@/components/Project";
-import projects from "@/consts/projects";
+import Project from "./Project";
+import { projects } from "@/consts";
 
 
 export default ({ title, filter = () => true, limit = projects.length }, t) => {

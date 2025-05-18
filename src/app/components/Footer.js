@@ -1,5 +1,5 @@
 import MediaIcon from "./MediaIcon";
-import media from "@/consts/media";
+import { media } from "@/consts";
 
 export default (t) => {
     return /*html*/ `
@@ -19,7 +19,7 @@ export default (t) => {
                     <div class="footer__media">
                         <div class="footer__title">${t.media}</div>
                         <div class="footer__list">
-                            ${["discord"]
+                            ${["linkedin", "email", "twitter", "instagram", "discord"]
                                 .map((name) => MediaIcon({ name }))
                                 .join("")}
                         </div>

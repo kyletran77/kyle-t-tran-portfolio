@@ -1,5 +1,5 @@
 import Layout from "./views/Layout";
-import routes from "./consts/routes";
+import { routes } from "./consts";
 import startTitleAnimation from "./helpers/startTitleAnimation";
 import localeHandler from "./helpers/localeHandler";
 import loadCssFile from "./helpers/loadCssFile";

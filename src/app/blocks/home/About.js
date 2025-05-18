@@ -1,6 +1,6 @@
 export default (t) => {
     return /*html*/ `
-        <section class="about">
+        <section class="about" id="background">
             <div class="about__content">
                 <h2 class="h2">${t.title}</h2>
                 <div class="about__text">
