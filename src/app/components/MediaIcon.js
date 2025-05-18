@@ -2,26 +2,52 @@ import { media } from "@/consts";
 import * as simpleIcons from 'simple-icons';
 
 export default ({ name }) => {
-    // Helper to format the name for simple-icons (e.g., 'linkedin' -> 'siLinkedin')
-    const formattedName = `si${name.charAt(0).toUpperCase() + name.slice(1).toLowerCase()}`;
-    // Special case for email, as simple-icons might use 'Gmail' or a generic 'Mail' icon
-    // We'll try 'siGmail' first, then a generic mail if needed, or handle as per library's naming
-    const iconKey = name === 'email' ? 'siGmail' : formattedName;
-    
-    const iconData = simpleIcons[iconKey];
+    let iconHTML = null;
+    const iconTitle = name.charAt(0).toUpperCase() + name.slice(1);
+    let iconData = null; // Initialize iconData to null
 
-    if (!iconData) {
-        console.warn(`Icon '${iconKey}' not found in simple-icons. Using fallback for '${name}'.`);
-        // Fallback for missing icons
-        return `<a href="${media[name]}" class="media" aria-label="${name}" title="${name}">[${name}]</a>`; 
+    // For email, we will skip simple-icons and use local SVG directly
+    if (name.toLowerCase() !== 'email') {
+        // Define specific keys for simple-icons for other icons
+        let iconKey;
+        switch (name.toLowerCase()) {
+            case 'linkedin':
+                iconKey = 'siLinkedin';
+                break;
+            case 'twitter':
+                // simple-icons uses 'siX' for Twitter/X
+                iconKey = 'siX'; 
+                break;
+            case 'instagram':
+                iconKey = 'siInstagram';
+                break;
+            case 'discord':
+                iconKey = 'siDiscord';
+                break;
+            default:
+                // For any other icons, construct a generic key
+                iconKey = `si${name.charAt(0).toUpperCase() + name.slice(1).toLowerCase()}`;
+        }
+        iconData = simpleIcons[iconKey];
     }
 
-    // The SVG string is in iconData.svg
-    // We'll wrap it in a div that can be styled, or directly style the SVG if needed.
-    return /*html*/ `
-        <a href="${media[name]}" class="media" aria-label="${name}" title="${name}">
+    if (iconData && iconData.svg) {
+        // Use simple-icons SVG
+        const svgContent = iconData.svg.replace('<svg', '<svg style="fill: currentColor; width: 100%; height: 100%;"');
+        iconHTML = `
             <div class="media__icon-wrapper" style="display: inline-block; width: 24px; height: 24px;">
-                ${iconData.svg.replace('<svg', '<svg style="fill: currentColor; width: 100%; height: 100%;"')}
-            </div>
+                ${svgContent}
+            </div>`;
+    } else {
+        // Fallback to local SVG file if not found in simple-icons, SVG data is missing, or if it's the 'email' icon
+        if (name.toLowerCase() !== 'email') {
+             console.warn(`Icon for '${name}' not found in simple-icons or SVG missing. Falling back to local path /images/icons/${name}.svg.`);
+        }
+        iconHTML = `<img src="/images/icons/${name}.svg" alt="${iconTitle}" class="media__icon"/>`;
+    }
+
+    return /*html*/ `
+        <a href="${media[name]}" class="media" aria-label="${iconTitle}" title="${iconTitle}">
+            ${iconHTML}
         </a>`;
 };
